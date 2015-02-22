@@ -7,7 +7,7 @@ chrome.runtime.onInstalled.addListener(function() {
                         pageUrl: { urlContains: 'trello' }
                     })
                 ],
-                actions: [ new chrome.declarativeContent.ShowPageAction() ]
+                actions: [ new chrome.declarativeContent.ShowPageAction()]
             }
         ]);
     });
